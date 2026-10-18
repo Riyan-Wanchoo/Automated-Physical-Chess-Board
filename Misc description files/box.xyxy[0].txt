@@ -1,0 +1,5 @@
+Gives 4 coordinates of chessboard
+
+
+
+tensor([ 205.0665,  399.7500, 1058.7686, 1264.4568])

@@ -1,0 +1,13 @@
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([0.])
+conf: tensor([0.9597])
+data: tensor([[2.0507e+02, 3.9975e+02, 1.0588e+03, 1.2645e+03, 9.5971e-01, 0.0000e+00]])
+id: None
+is_track: False
+orig_shape: (1600, 1200)
+shape: torch.Size([1, 6])
+xywh: tensor([[631.9175, 832.1034, 853.7021, 864.7068]])
+xywhn: tensor([[0.5266, 0.5201, 0.7114, 0.5404]])
+xyxy: tensor([[ 205.0665,  399.7500, 1058.7686, 1264.4568]])
+xyxyn: tensor([[0.1709, 0.2498, 0.8823, 0.7903]])

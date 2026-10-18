@@ -1,0 +1,378 @@
+- Each of these units represent a box (coming from loop: for box in r.boxes) - 
+
+- Each individual box represents a single detected object (for example, one specific chess piece, one hand, or one fallen piece).
+
+
+- From each individual box, you can extract several key pieces of information using YOLO's built-in attributes:
+
+1) box.xyxy[0]: Gives you the four bounding box coordinates [xmin, ymin, xmax, ymax] for that specific object.
+
+2) box.cls[0]: Gives you the class ID (a number corresponding to your classes, like 0, 1, or 2) telling you what the object is.
+
+3) box.conf[0]: Gives you the confidence score (a float between 0.0 and 1.0) indicating how sure the model is about that detection (e.g., 0.92 for 92% confident).
+
+
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9795])
+data: tensor([[411.8952, 513.0695, 469.8170, 574.5039,   0.9795,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[440.8561, 543.7867,  57.9218,  61.4344]])
+xywhn: tensor([[0.5511, 0.6797, 0.0724, 0.0768]])
+xyxy: tensor([[411.8952, 513.0695, 469.8170, 574.5039]])
+xyxyn: tensor([[0.5149, 0.6413, 0.5873, 0.7181]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9788])
+data: tensor([[331.3747, 526.9458, 376.3576, 580.0552,   0.9788,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[353.8661, 553.5005,  44.9829,  53.1094]])
+xywhn: tensor([[0.4423, 0.6919, 0.0562, 0.0664]])
+xyxy: tensor([[331.3747, 526.9458, 376.3576, 580.0552]])
+xyxyn: tensor([[0.4142, 0.6587, 0.4704, 0.7251]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9782])
+data: tensor([[523.0874, 145.0353, 580.1809, 207.7167,   0.9782,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[551.6342, 176.3760,  57.0935,  62.6814]])
+xywhn: tensor([[0.6895, 0.2205, 0.0714, 0.0784]])
+xyxy: tensor([[523.0874, 145.0353, 580.1809, 207.7167]])
+xyxyn: tensor([[0.6539, 0.1813, 0.7252, 0.2596]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9766])
+data: tensor([[ 22.3823, 141.1509,  86.4453, 198.4165,   0.9766,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[ 54.4138, 169.7837,  64.0630,  57.2656]])
+xywhn: tensor([[0.0680, 0.2122, 0.0801, 0.0716]])
+xyxy: tensor([[ 22.3823, 141.1509,  86.4453, 198.4165]])
+xyxyn: tensor([[0.0280, 0.1764, 0.1081, 0.2480]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9750])
+data: tensor([[608.0682, 424.9444, 684.3947, 483.5666,   0.9750,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[646.2314, 454.2555,  76.3264,  58.6222]])
+xywhn: tensor([[0.8078, 0.5678, 0.0954, 0.0733]])
+xyxy: tensor([[608.0682, 424.9444, 684.3947, 483.5666]])
+xyxyn: tensor([[0.7601, 0.5312, 0.8555, 0.6045]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9733])
+data: tensor([[213.0806, 244.7447, 281.2322, 301.8386,   0.9733,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[247.1564, 273.2917,  68.1516,  57.0939]])
+xywhn: tensor([[0.3089, 0.3416, 0.0852, 0.0714]])
+xyxy: tensor([[213.0806, 244.7447, 281.2322, 301.8386]])
+xyxyn: tensor([[0.2664, 0.3059, 0.3515, 0.3773]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9719])
+data: tensor([[419.3556, 437.0556, 466.5764, 485.9832,   0.9719,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[442.9660, 461.5194,  47.2208,  48.9276]])
+xywhn: tensor([[0.5537, 0.5769, 0.0590, 0.0612]])
+xyxy: tensor([[419.3556, 437.0556, 466.5764, 485.9832]])
+xyxyn: tensor([[0.5242, 0.5463, 0.5832, 0.6075]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9682])
+data: tensor([[714.1981,  19.5431, 796.3778,  97.4860,   0.9682,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[755.2880,  58.5145,  82.1797,  77.9430]])
+xywhn: tensor([[0.9441, 0.0731, 0.1027, 0.0974]])
+xyxy: tensor([[714.1981,  19.5431, 796.3778,  97.4860]])
+xyxyn: tensor([[0.8927, 0.0244, 0.9955, 0.1219]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9678])
+data: tensor([[516.8265, 528.9206, 574.0887, 596.6409,   0.9678,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[545.4576, 562.7808,  57.2622,  67.7203]])
+xywhn: tensor([[0.6818, 0.7035, 0.0716, 0.0847]])
+xyxy: tensor([[516.8265, 528.9206, 574.0887, 596.6409]])
+xyxyn: tensor([[0.6460, 0.6612, 0.7176, 0.7458]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9674])
+data: tensor([[409.0615,  15.2283, 476.8054, 115.2455,   0.9674,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[442.9334,  65.2369,  67.7440, 100.0172]])
+xywhn: tensor([[0.5537, 0.0815, 0.0847, 0.1250]])
+xyxy: tensor([[409.0615,  15.2283, 476.8054, 115.2455]])
+xyxyn: tensor([[0.5113, 0.0190, 0.5960, 0.1441]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9668])
+data: tensor([[712.6536, 142.5779, 772.7864, 192.4774,   0.9668,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[742.7200, 167.5276,  60.1328,  49.8994]])
+xywhn: tensor([[0.9284, 0.2094, 0.0752, 0.0624]])
+xyxy: tensor([[712.6536, 142.5779, 772.7864, 192.4774]])
+xyxyn: tensor([[0.8908, 0.1782, 0.9660, 0.2406]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9661])
+data: tensor([[  0.3365,  30.4943,  85.6882, 104.8038,   0.9661,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[43.0123, 67.6490, 85.3517, 74.3095]])
+xywhn: tensor([[0.0538, 0.0846, 0.1067, 0.0929]])
+xyxy: tensor([[  0.3365,  30.4943,  85.6882, 104.8038]])
+xyxyn: tensor([[0.0004, 0.0381, 0.1071, 0.1310]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9651])
+data: tensor([[606.6977, 349.0658, 668.7590, 400.3492,   0.9651,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[637.7283, 374.7075,  62.0613,  51.2834]])
+xywhn: tensor([[0.7972, 0.4684, 0.0776, 0.0641]])
+xyxy: tensor([[606.6977, 349.0658, 668.7590, 400.3492]])
+xyxyn: tensor([[0.7584, 0.4363, 0.8359, 0.5004]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9648])
+data: tensor([[ 10.5302, 621.5284,  69.7441, 679.3109,   0.9648,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[ 40.1371, 650.4197,  59.2139,  57.7825]])
+xywhn: tensor([[0.0502, 0.8130, 0.0740, 0.0722]])
+xyxy: tensor([[ 10.5302, 621.5284,  69.7441, 679.3109]])
+xyxyn: tensor([[0.0132, 0.7769, 0.0872, 0.8491]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9640])
+data: tensor([[716.5691, 615.2968, 779.8674, 670.1212,   0.9640,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[748.2183, 642.7090,  63.2983,  54.8243]])
+xywhn: tensor([[0.9353, 0.8034, 0.0791, 0.0685]])
+xyxy: tensor([[716.5691, 615.2968, 779.8674, 670.1212]])
+xyxyn: tensor([[0.8957, 0.7691, 0.9748, 0.8377]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9634])
+data: tensor([[603.2706,  28.3484, 680.8164, 105.6455,   0.9634,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[642.0435,  66.9969,  77.5458,  77.2971]])
+xywhn: tensor([[0.8026, 0.0837, 0.0969, 0.0966]])
+xyxy: tensor([[603.2706,  28.3484, 680.8164, 105.6455]])
+xyxyn: tensor([[0.7541, 0.0354, 0.8510, 0.1321]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9611])
+data: tensor([[414.5960, 335.8978, 463.8547, 382.1290,   0.9611,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[439.2254, 359.0134,  49.2587,  46.2311]])
+xywhn: tensor([[0.5490, 0.4488, 0.0616, 0.0578]])
+xyxy: tensor([[414.5960, 335.8978, 463.8547, 382.1290]])
+xyxyn: tensor([[0.5182, 0.4199, 0.5798, 0.4777]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9606])
+data: tensor([[107.9105, 726.1365, 160.1089, 788.2335,   0.9606,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[134.0097, 757.1850,  52.1984,  62.0970]])
+xywhn: tensor([[0.1675, 0.9465, 0.0652, 0.0776]])
+xyxy: tensor([[107.9105, 726.1365, 160.1089, 788.2335]])
+xyxyn: tensor([[0.1349, 0.9077, 0.2001, 0.9853]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9578])
+data: tensor([[120.9547, 236.2276, 181.7825, 288.5866,   0.9578,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[151.3686, 262.4071,  60.8277,  52.3590]])
+xywhn: tensor([[0.1892, 0.3280, 0.0760, 0.0654]])
+xyxy: tensor([[120.9547, 236.2276, 181.7825, 288.5866]])
+xyxyn: tensor([[0.1512, 0.2953, 0.2272, 0.3607]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9574])
+data: tensor([[611.6479, 611.6390, 673.3636, 673.1075,   0.9574,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[642.5057, 642.3733,  61.7157,  61.4685]])
+xywhn: tensor([[0.8031, 0.8030, 0.0771, 0.0768]])
+xyxy: tensor([[611.6479, 611.6390, 673.3636, 673.1075]])
+xyxyn: tensor([[0.7646, 0.7645, 0.8417, 0.8414]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9569])
+data: tensor([[512.9290, 710.5352, 580.2761, 796.3684,   0.9569,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[546.6025, 753.4518,  67.3472,  85.8333]])
+xywhn: tensor([[0.6833, 0.9418, 0.0842, 0.1073]])
+xyxy: tensor([[512.9290, 710.5352, 580.2761, 796.3684]])
+xyxyn: tensor([[0.6412, 0.8882, 0.7253, 0.9955]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9528])
+data: tensor([[  0.0000, 430.8138,  33.5235, 497.5641,   0.9528,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[ 16.7617, 464.1890,  33.5235,  66.7503]])
+xywhn: tensor([[0.0210, 0.5802, 0.0419, 0.0834]])
+xyxy: tensor([[  0.0000, 430.8138,  33.5235, 497.5641]])
+xyxyn: tensor([[0.0000, 0.5385, 0.0419, 0.6220]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9522])
+data: tensor([[218.8296, 347.4977, 271.0043, 393.6989,   0.9522,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[244.9169, 370.5983,  52.1747,  46.2012]])
+xywhn: tensor([[0.3061, 0.4632, 0.0652, 0.0578]])
+xyxy: tensor([[218.8296, 347.4977, 271.0043, 393.6989]])
+xyxyn: tensor([[0.2735, 0.4344, 0.3388, 0.4921]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9519])
+data: tensor([[714.1174, 713.3802, 794.4563, 793.1486,   0.9519,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[754.2869, 753.2644,  80.3389,  79.7683]])
+xywhn: tensor([[0.9429, 0.9416, 0.1004, 0.0997]])
+xyxy: tensor([[714.1174, 713.3802, 794.4563, 793.1486]])
+xyxyn: tensor([[0.8926, 0.8917, 0.9931, 0.9914]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9498])
+data: tensor([[ 12.0995, 719.8621,  91.6250, 798.8762,   0.9498,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[ 51.8623, 759.3691,  79.5256,  79.0142]])
+xywhn: tensor([[0.0648, 0.9492, 0.0994, 0.0988]])
+xyxy: tensor([[ 12.0995, 719.8621,  91.6250, 798.8762]])
+xyxyn: tensor([[0.0151, 0.8998, 0.1145, 0.9986]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([1.])
+conf: tensor([0.9391])
+data: tensor([[  3.4278, 298.2571, 458.5097, 793.5630,   0.9391,   1.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[230.9688, 545.9100, 455.0820, 495.3059]])
+xywhn: tensor([[0.2887, 0.6824, 0.5689, 0.6191]])
+xyxy: tensor([[  3.4278, 298.2571, 458.5097, 793.5630]])
+xyxyn: tensor([[0.0043, 0.3728, 0.5731, 0.9920]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9339])
+data: tensor([[304.3588,   1.5502, 373.0820, 102.8468,   0.9339,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[338.7204,  52.1985,  68.7232, 101.2965]])
+xywhn: tensor([[0.4234, 0.0652, 0.0859, 0.1266]])
+xyxy: tensor([[304.3588,   1.5502, 373.0820, 102.8468]])
+xyxyn: tensor([[0.3804, 0.0019, 0.4664, 0.1286]])
+ultralytics.engine.results.Boxes object with attributes:
+
+cls: tensor([2.])
+conf: tensor([0.9327])
+data: tensor([[ 43.0876, 376.5382,  89.6308, 411.9378,   0.9327,   2.0000]])
+id: None
+is_track: False
+orig_shape: (800, 800)
+shape: torch.Size([1, 6])
+xywh: tensor([[ 66.3592, 394.2380,  46.5433,  35.3997]])
+xywhn: tensor([[0.0829, 0.4928, 0.0582, 0.0442]])
+xyxy: tensor([[ 43.0876, 376.5382,  89.6308, 411.9378]])
+xyxyn: tensor([[0.0539, 0.4707, 0.1120, 0.5149]])
